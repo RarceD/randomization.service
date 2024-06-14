@@ -1,3 +1,23 @@
+# RandoMice Service
+
+This is a modern version of the original [RandoMice](https://github.com/RvE54/RandoMice) tool. You can randomize your animals via API REST request like this:
+```json
+{
+    "numberOfGroups": 5,
+    "numberoOfAnimalsPerGroup": 5,
+    "animalMeasurements" : [
+        {
+            "animalID": "Animal 1",
+            "value": 12.23
+        },
+        {
+            "animalID": "Animal 2",
+            "value": 34.53
+        }
+    ]
+}
+```
+
 ## Run with docker
 
 ```sh
