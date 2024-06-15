@@ -45,6 +45,10 @@ And receive the randomize groups in following format:
 }
 ```
 
+## Documentation about study
+
+When publishing data for which randomice service was used, please cite: [van Eenige et al. PLOS ONE (2020)](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0237096).
+
 ## Run with docker
 
 ```sh
