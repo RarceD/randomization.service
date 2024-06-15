@@ -3,7 +3,7 @@
 This is a modern version of the original [RandoMice](https://github.com/RvE54/RandoMice) tool. You can randomize your animals via API REST request like this:
 ```json
 {
-    "numberOfGroups": 5,
+    "numberOfGroups": 2,
     "numberoOfAnimalsPerGroup": 5,
     "animalMeasurements" : [
         {
@@ -13,8 +13,35 @@ This is a modern version of the original [RandoMice](https://github.com/RvE54/Ra
         {
             "animalID": "Animal 2",
             "value": 34.53
-        }
+        },
+        // {more animal covariate ...}
     ]
+}
+```
+And receive the randomize groups in following format:
+
+```json
+{
+  "uniqueSetsNumber": 0,
+  "groups": [
+    {
+      "name": "Group 1",
+      "values": [
+        "Animal 3",
+        "Animal 12",
+        "Animal 8",
+        "Animal 52",
+        "Animal 103",
+      ],
+      "rank": 0,
+      "mean": 0,
+      "sd": 0,
+      "min": 0,
+      "median": 0,
+      "max": 0,
+      "pValue": 0
+    }
+  ]
 }
 ```
 
